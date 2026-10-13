@@ -20,12 +20,14 @@ body{
 }
 
 .nav-div{
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 800px;
     background-color: var(--primary-color);
-    padding: 10px;
-    border: solid, 3px;
+    padding: 16px;
+    border: double;
     border-color: var(--font-color);
 }
 
@@ -37,6 +39,7 @@ body{
     padding: 16px;
     box-shadow: none;
     margin-left: 12px;
+    margin-right: 12px;
 }
 .nav-button:hover{
     background-color: var(--secondary-font-color);
