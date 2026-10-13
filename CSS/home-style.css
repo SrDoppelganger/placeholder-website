@@ -4,10 +4,12 @@
 :root{
     --primary-color: #22223b;
     --font-color: #f2e9e4;
+    --secondary-font-color:#9A8C98;
 }
 
 body{
     background-image: url(IMGs/22801379.gif);
+    background-size: 200%;
     background-color: var(--primary-color);
 }
 
@@ -23,10 +25,26 @@ body{
     align-items: center;
     background-color: var(--primary-color);
     padding: 10px;
-    border: solid;
-    border-color: aliceblue;
+    border: solid, 3px;
+    border-color: var(--font-color);
 }
 
 .nav-button{
     background: none;
+    border-radius: 16px;
+    border: solid;
+    border-color: var(--font-color);
+    padding: 16px;
+    box-shadow: none;
+    margin-left: 12px;
+}
+.nav-button:hover{
+    background-color: var(--secondary-font-color);
+}
+
+.btn-text{
+    color: var(--font-color);
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
 }
