@@ -7,46 +7,26 @@
 }
 
 body{
-    background-color:#22223b;
+    background-image: url(IMGs/22801379.gif);
+    background-color: var(--primary-color);
 }
 
-p, h1, li, .text{
-    color: #f2e9e4;
+.text{
+    color: var(--font-color);
     font-family: "Open Sans", Arial;
+    text-decoration: none;
 }
 
-.about-me-banner{
+.nav-div{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--primary-color);
+    padding: 10px;
+    border: solid;
+    border-color: aliceblue;
 }
 
-.header{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-}
-
-.about-me-title{
-    font-weight: bold;
-}
-
-.about-me-card{
-    margin: auto;
-    display: inline-flexbox;
-    justify-content: center;
-    align-items: center;
-    border-style: double;
-    border-color: #f2e9e4;
-    border-width: 4px;
-    max-width: 600px;
-    padding: 12px;
-}
-
-.back-to-github{
-    display: inline-flexbox;
-    justify-content: center;
-    align-items: center;
-    margin-top: 64px;
-    text-align: center;
+.nav-button{
+    background: none;
 }
