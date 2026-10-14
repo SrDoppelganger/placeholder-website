@@ -20,15 +20,18 @@ body{
     text-decoration: none;
 }
 
-.nav-div{
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: var(--card-max-width);
+.right-div{
+    float: right;
     background-color: var(--primary-color);
+}
+
+.nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
     padding: 16px;
-    border: double;
+    border: solid;
     border-color: var(--font-color);
 }
 
@@ -40,9 +43,10 @@ body{
     border-color: var(--font-color);
     padding: 16px;
     box-shadow: none;
-    width: 100px;
-    margin-left: 12px;
-    margin-right: 12px;
+    width: 240px;
+    margin-left: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 .nav-button:hover{
     background-color: var(--secondary-font-color);
@@ -53,6 +57,15 @@ body{
     font-weight: bold;
     font-size: 16px;
     text-decoration: none;
+}
+
+.bunny-div{
+    background-color: var(--primary-color);
+    max-width: 300px;
+    border: solid;
+    margin-top: -3px;
+    border-color: var(--font-color);
+    padding: 16px;
 }
 
 .intro-div{
