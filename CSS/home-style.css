@@ -57,7 +57,7 @@ body{
 
 .intro-div{
     margin: auto;
-    display: flex;
+    display: inline-flexbox;
     justify-content: center;
     align-content: center;
     padding: 16px;
